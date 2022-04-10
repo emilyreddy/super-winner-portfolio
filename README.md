@@ -7,7 +7,7 @@ A portfolio website that gives insite about me, my work, and contact info.
 * CSS
 
 ## Website
-file:///Users/emilyreddy/Desktop/projects/Portfolio/index.html
+https://emilyreddy.github.io/super-winner-portfolio/
 
 ## Contribution
 Made by Emily Reddy
