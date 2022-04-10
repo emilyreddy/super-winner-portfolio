@@ -1,112 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Emily Reddy Portfolio</title>
+        <link rel="shortcut icon" type="image/jpg" href="./assets/images/favicon (1).ico">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Emily Reddy Portfolio</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
-<!-- navigation -->
-
-<div class="wrapper">
-    <div class="sidebar">
-        <h2>Portfolio</h2>
-       <ul>
-           <li>
-               <a href="About Me">About Me</a>
-           </li>
-           <li>
-               <a href="My Work">My Work</a>
-           </li>
-           <li>
-               <a href="Contact Info">Contact Info</a>
-           </li>
-        </ul>
-    </div>
-   </div>
-</header>
-<nav>
-        <!--Introduciton--> 
-        <section class="intro">
-          <div class="intro-name">
-              <h2>EMILY REDDY</h2>
-              <br>
-              <h4>Hello, my name is Emily. I am 24 years old and currently living in Daytona Beach, FL. At this point in my life, most of my job experience comes from retail. Currently working in customer service and jumping around to the other departments when help is needed. Providing preimier customer service at Publix Supermarkets is what I have been doing for 5+ years. </h4>
-              <br>
-              <h4>In my free time, I love spending as much time as I can outside and with my family. My hobbies include fishing, and boating.</h4>
-              <br>
-              <h4>I am currently at UCF enrolled in a coding bootcamp, with a completion date of July 28th. My dream job would be working for Disney, ofcourse, but I would also love to work for smaller non for profit organizations focused towards bettering the earth, such as ocean cleanup.</h4>
-                </div>
-
-            <div class="self-portrait">
-            <img src="./assets/images/self-portrait.jpg" alt="self-portrait" width="250" height="300">
-              <h4>In Progress: Full Stack Web Developer</h4>
+    <body>
+        <header>
+            <h1>
+                <a href="/">
+                    Emily Reddy
+                </a>
+            </h1>
+        <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- About me -->
+        <section id="about-me" class="bio">
+            <div class="flex1">
+            <img src="./assets/images/self-portrait.jpg" style="width: 250px;height: 400;">
+            <h2>About me</h2>
+            <p>Hi! My name is Emily. I currently live on the east coast of Florida, but I am from the midwest. Right now I am enrolled in the UCF coding bootcamp.
+                <br> I will graduate at the end of July 2022, with certificates in software development, and plans to be a full stack web developer!
+            </p>
+           
             </div>
         </section>
-
-        <!--Contact-->
-        <section class="Contact" id="contact-info">
-             <h2 class="section title contact">My Contact Info</h2>
-        <div class="contact">
-            <h3>Contact Me</h3>
-            <p>Monday-Friday: 12:00pm-5:00pm</p>
-            <p>Saturday-Sunday: 3:00pm-6:00pm</p>
-       
-        </div> 
+        <!-- Applications I've worked on -->
+        <section id="work" class="apps">
+            <h2>My Work</h2>
+            
+            <a href="https://emilyreddy.github.io/run-buddy/">
+                <img src="./assets/images/runbuddy-screenshot.png" alt="screenshot of Run Buddy website" style="width:300px;height:150px;">
+            <div class="flex2">
         
-        <!--contact info-->
-
-        <div class="contact1">
-            <h4>Phone Number</h4>
-            <p>317.501.7885</p>
+            </div>
         </div>
+                <a href="https://emilyreddy.github.io/fruitbook/">
+                <img src="./assets/images/fruitbook-screenshot.png" alt="fruitbook" style="width:300px;height:150px;">
+            </div>
 
-        <div class="contact2">
-            <h4>Email</h4>
-            <p>emreddy@icoud.com</p>
-        </div>
+            <div>
+                <img src="./assets/images/coming-soon1.jpg" alt="placeholder image" style="width:300px;height:150px;">
+            </div>
+
+            <div>
+                <img src="./assets/images/coming-soon2.jpg" alt="placeholder image" style="width:300px;height:150px;">
+            </div>
+            </div>
         </section>
        
+        <!-- Footer -->
+        <footer>
 
-    <!--My Work-->
-    <section class="my-work">
-        <h2>My Work</h2>
-       <body>
-        <div class="box-grid">
-            <div class="box-flex box-flex-center">
-                <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image">
-                <h5 class="box-caption">Project 1</h5>
+             <!-- Contact me -->
+        <section id="contact-me" class="contact-info">
+            <h2>Contact me</h2>
+            <ul>
+                <li><a href="https://github.com/emilyreddy/">GitHub</a></li>
+                <li><a href="https://www.gmail.com/">emilyreddy00@gmail.com</a></li>
+                <li>Phone Number: 555.555.5555</li>
+            </ul>
             </div>
+        </section>
 
-            <div class="box-flex box-flex-center">
-                <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image">
-                <h5 class="box-caption">Project 2</h5>
-            </div>
-
-            <div class="box-flex box-flex-center">
-                <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image">
-                <h5 class="box-caption">Project 3</h5>
-            </div>
-
-
-            <div class="box-flex box-flex-center">
-                <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image"> 
-                <h5 class="box-caption">Project 4</h5>
-            </div>
-
-            <div class="box-flex box-flex-center">
-                <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image">
-                <h5 class="box-caption">Project 5</h5>
-                </div>
-
-                <div class="box-flex box-flex-center">
-            <img class="box-img" src="https://source.unsplash.com/random/320x240" alt="Example image"> 
-            <h5 class="box-caption">Project 6</h5>    
-         </div>
-    
-</body>
+            
+        </footer>
+    </body>
 </html>
