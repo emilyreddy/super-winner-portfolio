@@ -1,85 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <title>Emily Reddy Portfolio</title>
-        <link rel="shortcut icon" type="image/jpg" href="./assets/images/favicon (1).ico">
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
-
-    <body>
-        <header>
-            <h1>
-                <a href="/">
-                    Emily Reddy
-                </a>
-            </h1>
-        <!-- Navigation -->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- About me -->
-        <section id="about-me" class="bio">
-            <div class="flex1">
-            <img src="./assets/images/self-portrait.jpg" style="width: 250px;height: 400;">
-            <h2>About me</h2>
-            <p>Hi! My name is Emily. I currently live on the east coast of Florida, but I am from the midwest. Right now I am enrolled in the UCF coding bootcamp.
-                <br> I will graduate at the end of July 2022, with certificates in software development, and plans to be a full stack web developer!
-            </p>
-           
-            </div>
-        </section>
-        <!-- Applications I've worked on -->
-        <section id="work" class="apps">
-            <h2>My Work</h2>
-            
-            <a href="https://emilyreddy.github.io/run-buddy/">
-                <img src="./assets/images/runbuddy-screenshot.png" alt="screenshot of Run Buddy website" style="width:300px;height:150px;">
-            <div class="flex2">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emily Reddy's Portfolio</title>
+        <link rel="stylesheet" href="./assets/CSS/style.css">
         
-            </div>
-        </div>
-                <a href="https://emilyreddy.github.io/fruitbook/">
-                <img src="./assets/images/fruitbook-screenshot.png" alt="fruitbook" style="width:300px;height:150px;">
-            </div>
-
-            <div>
-                <img src="./assets/images/coming-soon1.jpg" alt="placeholder image" style="width:300px;height:150px;">
-            </div>
-
-            <div>
-                <img src="./assets/images/coming-soon2.jpg" alt="placeholder image" style="width:300px;height:150px;">
-            </div>
-            </div>
-        </section>
-       
-        <!-- Footer -->
-        <footer>
-
-             <!-- Contact me -->
-        <section id="contact-me" class="contact-info">
-            <h2>Contact me</h2>
+    </head>
+    <body>
+    <header>
+        <h1><a href="index.html" class="home">Emily Reddy</a></h1>
+        <nav>
             <ul>
-                <li><a href="https://github.com/emilyreddy/">GitHub</a></li>
-                <li><a href="https://www.gmail.com/">emilyreddy00@gmail.com</a></li>
-                <li>Phone Number: 555.555.5555</li>
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact me</a>
+                </li>
+                <li><a href="#">Hire me</a></li>
             </ul>
+        </nav>
+    </header>
+
+        <section class="intro">
+            
+            <div>
+                <h2 class="elementor-heading-title elementor-size-default">
+                    Hello, my name is Emily Reddy    
+                </h2>
+
+             
+                    <img class="avatar" src="./assets/Images/IMG_3580.JPG" alt="my mom and I">
+               
+                <div>
+                    <img class="scroll" src="./assets/Images/pure-css-site-scroll-micro-animation.gif" alt="scroll wheel">
+
+                </div>
+                
+            <div id="about-me">
+                <h2 class="section-title primary border">
+                    About me
+                </h2>
+                <p id="about-me-text">
+                    I am currently enrolled in the coding bootcamp at UCF. I am from the midwest but currently live on the east coast of Florida. 
+                    I enjoy spending time with my family, at the beach, and on the water. 
+                </p>
             </div>
         </section>
 
-            
+        <section id="projects">
+            <div class="flex">
+                <h1 class="subtitle">Projects</h1>
+                <div> 
+                    <h3>Run Buddy</h3>
+                        <a href="https://deank24.github.io/run-buddy/"><img class="project-1" src="./assets/Images/deank24.github.io_run-buddy_ (1).png" alt="Run Buddy Project"></a>
+                </div>
+                <div>
+                    <h3>FruitBook</h3>
+                        <a href="https://deank24.github.io/urban-octo-telegram/"><img class="project-2" src="./assets/Images/screenshot.png" alt="Horiseon Project"></a>
+                </div>
+                <div>
+                    <h3>Barkingham Palace</h3>
+                        <a href="https://deank24.github.io/Florida-s-hungry/"><img class="project-2" src="./assets/Images/deank24.github.io_Florida-s-hungry_.png" alt="Florida-s-hungry"></a>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-me">
+            <div>
+                <h2 class="section-title2">
+                    Reach Out!!
+                </h2>
+            </div>
+            <div>
+                <address>
+                    P: <a href="tel:239.357.7136">317.555.5555</a><br />
+                    E: <a  href="mailto:Deank242@gmail.com">emreddy@icloud.com</a>
+                </address>
+            </div>
+            <div class="contact-form">
+                <div class="contact-info">
+                    <h3>
+                    Contact me
+                    </h3>
+                    <form>
+                        <label for="contact-name">Your name</label>
+                        <input type="text" id="contact-name" placeholder="Your Name" />
+
+                        <label for="contact-email">Your E-mail</label>
+                        <input type="text" id="contact-email" placeholder="Your Email" />
+                    
+                        <label for="question">Question?</label>
+                        <input type="text" id="question" placeholder="Ask any question" />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h2 class="footer">❤️ Made with love by Emily Reddy</h2>
         </footer>
     </body>
 </html>
